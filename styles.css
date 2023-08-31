@@ -1,0 +1,179 @@
+  *{
+    border:0px solid red;
+  }
+.navbar {
+  background-color: #222831;
+  height: 60px;
+  width: 100%;
+  position:-webkit-sticky;
+  top: 0;
+ margin-left:50px;
+  z-index: 999;
+  padding-top: 5px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  float: left;
+}
+.body{
+  background-color: #222831;
+  width:1220px;
+  margin: 0;
+}
+.body::-webkit-scrollbar{
+	display:none;
+}
+.main{
+  background-color: #393E46;
+  height:2150px;
+  width:1220px;
+  color: white;
+  position:relative;
+  left:30px;
+}
+.navbar a:hover {
+  background-color: gold;
+  box-shadow: 3px 3px 3px orange;
+  border-radius: 10px 100px / 120px 100px;
+  color: black;
+  text-shadow: 2px 2px 3px black
+}
+.footer{
+  position:relative;
+  bottom:0px;
+  background-color: #222831;
+  padding: 30px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+#my{
+  width:350px;
+  height:350px;
+  color:black;
+  background-color:grey;
+  position:relative;
+  left:50px;
+  top:50px;
+  float:left;
+  cursor:pointer;
+  border-radius:10px;
+  text-align:center;
+  animation-timing-function:linear;
+}
+#web{
+  width:350px;
+  height:350px;
+  color:black;
+  background-color:grey;
+  position:relative;
+  left:100px;
+  cursor:pointer;
+  float:left;
+  top:50px;
+  border-radius:10px;
+  text-align:center;
+  animation-timing-function:linear;
+}
+#software{
+  width:350px;
+  height:350px;
+  color:black;
+  background-color:grey;
+  position:relative;
+  left:150px;
+  cursor:pointer;
+  float:left;
+  top:50px;
+  text-align:center;
+  border-radius:10px;
+  animation-timing-function:linear;
+}
+#download{
+  width:1150px;
+  height:350px;
+  background-color:grey;
+  color:black;
+  position:relative;
+  top:100px;
+  left:30px;
+  display:grid;
+  border-radius:10px;
+  place-items: center;
+}
+#download:hover{
+  background-color:grey;
+  box-shadow: 3px 3px 50px gold,6px 6px 50px orange;
+}
+#software:hover{
+  background-color:black;
+  color:black;
+  box-shadow: 3px 3px 50px gold,6px 6px 50px darkgreen;
+  transform:rotateY(180deg);
+  transition:1s;
+}
+#my:hover{
+  background-image:url(https://i.ibb.co/PDtnZyX/hareeswar-harry-9676337020-hareeswar2003-gmail-com-1.jpg);
+  color:black;
+  box-shadow: 3px 3px 50px gold,6px 6px 50px red;
+  transform:rotateY(180deg);
+  transition:1s;
+}
+#you{
+  position:relative;
+  width:350px;
+  bottom:20px;
+  height:350px;
+  border-radius:10px;
+  background-color:grey;
+  text-align:center;
+}
+#you:hover{
+  opacity: 0;
+}
+#web:hover{
+  background-color:white;
+  color:white;
+  box-shadow: 3px 3px 50px gold,6px 6px 50px orange;
+  transform:rotateY(180deg);
+  transition:1s;
+}
+#inbox{
+  width:900px;
+  height:50px;
+  font-size:25px;
+  border-radius:50px;
+  text-align:center;
+}
+#inbox:hover{
+  width:900px;
+  height:50px;
+  font-size:25px;
+  box-shadow: 3px 3px 20px black,6px 6px 20px black;
+}
+#buttons{
+  position:relative;
+  top:50px;
+  left:350px;
+  width:200px;
+  height:50px;
+  background:gold;
+  border-radius: 400px 100px;
+  font-size:25px;  
+}
+#buttons:hover{
+  background-color:gold;
+  box-shadow: 3px 3px 20px black,6px 6px 20px black;
+}
+#one{
+  position:relative;
+  left:500px;
+  top:20px;
+  width:500px;
+}
+.cards{
+  position:relative;
+  left:-20px;
+}
