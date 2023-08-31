@@ -3,7 +3,6 @@
 <head>
 <title>HAREESWAR'S WEBSITE</title>
 <link rel="stylesheet" href="styles.css">
-<script src="script.js"></script>
 </head>
 <body class="body">
 <nav class="navbar">
@@ -31,5 +30,22 @@
 <footer class="footer">
 <a>&copy; 2024 hareeswar. All rights reserved.</a>
 </footer>
+<script>
+	const urlInput = document.querySelector("#inbox"); 
+	const downloadBtn = document.querySelector("#buttons");
+	downloadBtn.addEventListener("click", async () => {
+	try {
+		const response = await fetch(urlInput.value);
+		const file = await response.blob();
+		const link = document.createElement("a");
+		link.href= URL.createObjectURL(file);
+		link.download= new Date().getTime().toString();
+		link.click();
+		alert("Image downloaded");
+	} catch(error) {
+		alert("Failed to download the file!\nretry again");
+	}
+	});
+</script>
 </body>
 </html>
